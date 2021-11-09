@@ -1,0 +1,97 @@
+
+
+html{
+   /* box-sizing: border-box; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{ 
+    background-color: rgba(235, 226, 226, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.panel{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row; 
+} 
+    
+.panelView{
+    margin: 10px;
+    width: 25%; 
+    border: 1px solid; 
+    border-radius: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pricing_header{
+    width: 25%; 
+    padding-bottom: 10px;
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pricing_money{
+    font-size: 20px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+span{
+    font-size: 10px;
+    color: grey;;
+}
+
+button{
+    background-color: black;
+    margin:10px;
+    color: white;
+    margin-bottom: 8px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px; 
+}
+
+.listHead{
+    padding-bottom: 1px;
+}
+
+.list{
+    border-top: 1px solid gray;
+}
+
+li{
+    /* <span>&#10003;</span> entity code*/
+    list-style : none;
+    list-style-type: '✓'; 
+    list-style-position: outside;
+    padding-right: 30px;
+    color: grey;
+    padding-left: 10px;
+    padding-bottom: 10px;  
+    font-size: 15px;;
+  } 
+
+  ::marker {
+    color: green;
+}
+
+  p{
+    color: gray;
+    font-weight: lighter;
+    padding-bottom: 1px;
+  }

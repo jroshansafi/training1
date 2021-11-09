@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="formexer.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- <img src="./logo.png"/> -->
+        <img class="img" src="https://api.faviconkit.com/testflow.eu/144" alt="">
+        <h1 id="space">Sign in to your account</h1>
+        <h5> Or <span class="txtColor"> start your 14-day free trial</span></h5>
+
+        <p>
+            <input class="txtbox form-control email" style="margin: 0px;" id="email" type="text"
+                placeholder="Email address" name="email" minlength="5" maxlength="20" required>
+
+
+            <input class="txtbox form-control password" style="margin: 0px;" id="password" type="password"
+                placeholder="Password" name="password" minlength="6" maxlength="10" required>
+        </p>
+        <input id="check" type="checkbox" name="agree_tos">
+        <label for="agree" id="text1">Remember me</label>
+        <a id="forget" >Forget your password ?</a>
+
+        <button class="btn">
+            <i class="fa fa-lock" href="#"></i>Sign in</button>
+
+    </div>
+
+</body>
+
+</html>

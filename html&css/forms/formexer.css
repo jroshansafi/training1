@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0
+}
+#container{
+
+    display: block;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    width: 100px; 
+    height: 100px;
+    padding-left: 260px;
+}
+
+h1{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    display: inline;
+    justify-content: center;
+    padding-left: 240px;
+}
+
+.txtColor{
+    color: blue;
+}
+
+.txtbox{
+    width: 100%;
+    height: 30px;
+    border-color: darkgray;
+    border-radius: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104%;
+    height: 30px;
+    border-color: darkgray;
+    border-radius: 5px;
+    background-color: rgb(77, 77, 189);
+    height: 40px;
+    color: white;   
+    padding-right: 280px; 
+}
+  
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+label, input {
+    margin-bottom: 10px;
+    padding-right: 365px;
+}
+
+i{
+    color: rgb(111, 111, 165);
+    padding-right: 280px;
+}
+.form-control {
+
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#forget{
+    color:rgb(77, 77, 189);
+}
+
+.form-control.email{
+    border-bottom: none;
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+.form-control.password{
+    border-top-right-radius: unset;
+    border-top-left-radius: unset;
+}
+
+/* @media (min-width: 728px){
+    body{
+        display: flex;
+    }
+} */
+
+/* @media only screen and (max-width: 600px) {
+    img {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        padding-left: 64px;
+
+    }
+  h1{
+      font-size: 1.5em;
+  }
+  h5{
+      padding-left: 45px;
+  }
+  label, input{
+      font-size: 13px;
+      padding-right: 0px;
+  }
+  #forget{
+      font-size: 15px;
+  }
+} */
+
+/* @media only screen and (max-width: 756px) {
+    img {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        padding-left: 64px;
+
+    }
+  h1{
+      font-size: 1.7em;
+  }
+  h5{
+      padding-left: 100px;
+  }
+  label, input{
+      font-size: 25px;
+      padding-right: 10px;
+  }
+  #forget{
+      font-size: 20px;
+  }
+} */
+  

@@ -1,0 +1,62 @@
+git checkout -b branchName- To create new branch
+git checkout branchName- To switch branch.
+
+Merge two branches steps:
+1. git checkout 'source branch name'
+2. git pull
+3. git merge 'our branch name'
+4. (Check for conflicts)
+5. git push
+
+If conflict occurs resolve the conflict and do the following steps:
+git add 'changed file'
+git commit -m "conflict resolved"
+git push
+
+1. git clone https://VASHANTH-Provility@bitbucket.org/sgs91810/iqux-ui.git
+
+2. git clone https://sheerinsidhara@bitbucket.org/sgs91810/iqux-ui.git
+
+3. git clone https://mohamedIthirisshabi@bitbucket.org/sgs91810/iqux-ui.git @Rasikhan (edited) 
+
+4. sudo apt update && sudo apt install curl -y
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+
+5. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+6. nvm install v12.5
+nvm use v12.5
+
+7. https://dev.to/skaytech/how-to-install-node-version-manager-nvm-for-windows-10-4nbi
+https://dev.to/skaytech/how-to-install-node-version-manager-nvm-for-windows-10-4nbi
+(window 10 installation)
+
+8. yarn install
+
+9. rimraf node_modules
+npm install rimraf -g
+rm -rf node_modules
+
+10. aiqpurple2 credentials: aiqpurple2.ddsdeploytest.com
+User Name :  iq-admin@ddswireless.com
+Password:    AdM5I0N09ToS$IlJ
+URL: https://iq.ui.aiqpurple2.ddsdeploytest.com/
+
+11. npm install --global yarnm
+
+
+//for github
+//…or create a new repository on the command line
+
+echo "# training" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/jroshansafi/training.git
+git push -u origin master
+
+//…or push an existing repository from the command line
+git remote add origin https://github.com/jroshansafi/training.git
+git branch -M master
+git push -u origin master

@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    padding-bottom: 200px;
+}
+
+.topnav{
+   font-family: sans-serif;
+}
+
+.navbar-brand{
+    padding-left: 350px;
+    padding-right: 400px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav:hover{
+    text-decoration: underline;
+    line-height: 1px;
+}
+
+.nav .home:active{
+font-weight: bold;
+}
+
+a{
+    color: white;
+}
+
+.nav{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.para{
+    text-align: center;
+}
+ p {
+        max-width: 50ch;
+        text-align: center;
+        padding-left: 450px;
+    }      
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: lightgray;
+        text-align: center;
+      }
+
+
+        .library{
+            color: white;
+        } 
+
+       
+
+
+
